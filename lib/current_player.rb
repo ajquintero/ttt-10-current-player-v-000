@@ -1,5 +1,5 @@
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  def turn_count(board, index, character = "X")
+  def turn_count(board, index)
     count = 0
     board.each do |turn|
       if board[index] = "X" || board[index] = "O"
