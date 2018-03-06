@@ -5,7 +5,7 @@
       if board[] = "X" || board[] = "O"
       puts "#{turn}"
       count += 1
-    end
+      end
     end
   end
 
