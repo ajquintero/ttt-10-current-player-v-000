@@ -5,8 +5,8 @@
       if turn == "X" || turn == "O"
       count += 1
       end
-      return count
     end
+    return count
   end
 
 
