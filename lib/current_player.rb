@@ -1,7 +1,6 @@
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   count = 0
   def turn_count(board)
-    
     board.each do |turn|
       puts "There have been #{turn} turns played"
       count += 1
