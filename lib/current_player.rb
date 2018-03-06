@@ -6,6 +6,7 @@
       puts "#{turn}"
       count += 1
       end
+      count
     end
   end
 
