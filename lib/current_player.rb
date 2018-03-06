@@ -12,6 +12,7 @@
 
 
 
+
 # def current_player(board, index)
 #   if turn_count(board, index) % 2 == 0 || turn_count(board, index) == 0
 #     return "X"
