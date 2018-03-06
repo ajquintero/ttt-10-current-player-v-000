@@ -1,8 +1,8 @@
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  def turn_count(board, index)
+  def turn_count(board)
     count = 0
     board.each do |turn|
-      if turn = "X" || turn = "O"
+      if board[] = "X" || board[] = "O"
       puts "#{turn}"
       count += 1
       end
